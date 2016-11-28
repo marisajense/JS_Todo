@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>JS TODO List / Examples</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href='assets/stylesheets/app.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body class="center container">
+    <h1 id="main-header">JS TODO List</h1>
+    <hr />
+
+    <label class='white-text'>Todo Item:</label>
+    <input id='item-input' type='text' placeholder='Type item here' />
+    <!-- inline JS way - NOT BEST PRACTICE -->
+    <!-- <button onClick='addItem();' type'button' class='btn black'>Add Item</button> -->
+    <button id='add-item-btn' type='button' class='btn black'>Add Item</button>
+    <hr />
+
+    <h3>Todo Items</h3>
+    <ul id='todo-list'>
+    </ul>
+
+    <div class='calc-button btn black'>
+      1
+    </div>
+
+    <div class='calc-button btn black'>
+      2
+    </div>
+
+    <div class='calc-button btn black'>
+      3
+    </div>
+
+    <script src='assets/javascripts/todo.js'></script>
+  </body>
+</html>
